@@ -11,7 +11,8 @@ app.get('/', function(req, res) {
 });
 
 app.get('/d4d', function(req, res) {
-    res.status(301).redirect("https://forms.zoho.com/pbhllc/form/DrivingForDollars")
+    res.status(301).redirect("https://forms.zohopublic.com/pbhllc/form/DrivingForDollars/formperma/47zEPeEOb4z2P2-cWnLBZ4nb7UTprv1D_T0Pl55nvRM")
 });
+
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
