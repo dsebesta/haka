@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dsebesta/haka#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "forever-monitor": "^1.7.1"
   }
 }
