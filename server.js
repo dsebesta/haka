@@ -11,7 +11,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/d4d', function(req, res) {
-    res.sendFile(path.join(__dirname + '/d4d/index.html'));
+    res.status(301).redirect("https://forms.zoho.com/pbhllc/form/DrivingForDollars")
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
